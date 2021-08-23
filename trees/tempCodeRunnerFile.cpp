@@ -1,0 +1,2 @@
+h(root->right,data);
+}

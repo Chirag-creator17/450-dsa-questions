@@ -1,0 +1,27 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: cpp.exe build active file",
+			"command": "D:\\softwares\\codeblocks-20.03-32bit-mingw-32bit-nosetup\\MinGW\\bin\\cpp.exe",
+			"args": [
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: D:\\softwares\\codeblocks-20.03-32bit-mingw-32bit-nosetup\\MinGW\\bin\\cpp.exe"
+		}
+	]
+}

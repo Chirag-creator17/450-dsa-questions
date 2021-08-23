@@ -1,0 +1,1 @@
+{"name":"Local: try","url":"e:\\c++ programs\\450 dsa questions\\backtrakin-dp\\try.cpp","tests":[{"id":1622965816820,"input":"2\n6\n10 8 -20 5 5 5 \n10\n-5 1 7 -1 2 -4 10 0 -11 3","output":"20\n15"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\c++ programs\\450 dsa questions\\backtrakin-dp\\try.cpp","group":"local","local":true}
