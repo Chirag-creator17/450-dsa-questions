@@ -71,34 +71,34 @@ int main()
 // class Solution
 // {
 // public:
-//     void findPat(int i, int j, vector<vector<int>> m, int n, string s, vector<string> &res)
-//     {
-//         if (i < 0 or j < 0 or i >= n or j >= n or m[i][j] == 0 or m[i][j] == 100)
-//         {
-//             return;
-//         }
-//         else if (i == n - 1 and j == n - 1)
-//         {
-//             res.push_back(s);
-//             return;
-//         }
-//         else
-//         {
-//             m[i][j] = 100;
-//             findPat(i + 1, j, m, n, s + 'D', res);
-//             findPat(i - 1, j, m, n, s + 'U', res);
-//             findPat(i, j + 1, m, n, s + 'R', res);
-//             findPat(i, j - 1, m, n, s + 'L', res);
-//             m[i][j] = 1;
-//         }
-//     }
+    // void findPat(int i, int j, vector<vector<int>> m, int n, string s, vector<string> &res)
+    // {
+    //     if (i < 0 or j < 0 or i >= n or j >= n or m[i][j] == 0 or m[i][j] == 100)
+    //     {
+    //         return;
+    //     }
+    //     else if (i == n - 1 and j == n - 1)
+    //     {
+    //         res.push_back(s);
+    //         return;
+    //     }
+    //     else
+    //     {
+    //         m[i][j] = 100;
+    //         findPat(i + 1, j, m, n, s + 'D', res);
+    //         findPat(i - 1, j, m, n, s + 'U', res);
+    //         findPat(i, j + 1, m, n, s + 'R', res);
+    //         findPat(i, j - 1, m, n, s + 'L', res);
+    //         m[i][j] = 1;
+    //     }
+    // }
 
 //     vector<string> findPath(vector<vector<int>> &m, int n)
 //     {
 //         // Your code goes here
-//         vector<string> res;
-//         findPat(0, 0, m, n, "", res);
-//         sort(res.begin(), res.end());
-//         return res;
+        // vector<string> res;
+        // findPat(0, 0, m, n, "", res);
+        // sort(res.begin(), res.end());
+        // return res;
 //     }
 // };
