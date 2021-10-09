@@ -4,11 +4,12 @@ int main()
 {
     int n;
     cin>>n;
-    stack<int> s;
-    vector<int> v;
     int a[n];
     for(int i=0;i<n;i++)
         cin>>a[i];
+    stack<int> s;
+    vector<int> v;
+    
     for(int i=n-1;i>=0;i--)
     {
         if(s.size()==0)

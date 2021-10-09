@@ -60,6 +60,6 @@ int main()
     cin >> s1;
     cin >> s2;
     int n = s1.length(), m = s2.length();
-    cout << lcs(s1, s2, n, n);
+    cout << lcs(s1, s2, n, n).size();
     return 0;
 }
