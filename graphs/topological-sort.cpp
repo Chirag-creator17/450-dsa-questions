@@ -38,7 +38,7 @@ int32_t main()
             indeg[it]--;
             if(indeg[it]==0)
                 pq.push(it);
-            
+
         }
     }
     return 0;
