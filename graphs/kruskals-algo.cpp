@@ -54,7 +54,6 @@ int32_t main()
             cout<<u<<" "<<v<<endl;
             cost+=w;
             union_set(p1,p2);
-
         }
     }
     cout<<cost<<endl;
