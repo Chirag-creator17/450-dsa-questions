@@ -81,9 +81,10 @@ int orangesRotting(vector<vector<int>>& grid) {
             int l=q.size();
             for(int k=0;k<l;k++)
             {
-                auto [i,j]=q.front();
+                pair<int,int> v=q.front();
+                int i=v.first;
+                int j=v.second;
                 q.pop();
-                
                 for(int m=0;m<4;m++)
                 {
                     int x=i+offset[m];
