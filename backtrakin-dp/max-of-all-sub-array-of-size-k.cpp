@@ -10,9 +10,11 @@ int main()
     cin.tie(NULL);
     int n,k;
     cin>>n>>k;
+    vi a(n);
     f(i,0,n)
         cin>>a[i];
     int i=0,j=0;
+    deque<int> l;
     vi ans;
     while (j < n)
     {
